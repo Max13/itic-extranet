@@ -14,6 +14,10 @@ return [
     |
     */
 
+    'ldap' => [
+        'uris' => env('LDAP_URIS'),
+    ],
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
